@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nancy Barea">
+  <meta name="descripcion" content="Ejercicio de bootstrap del curso de Codo a codo">
+  <meta name="generator" content="Visual Studio Code">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Entrega Nro 6: Bootstrap</title>
+</head>
+
+<body>
+  <!-- CONTENEDOR TODA LA PAGINA-->
+  <div class="container-sm">
+    <!-- = ancho fijo vs "container-fluid" sin margen, ancho completo-->
+    <!--p-3 (padding) my-3 (margin) bg-dark (color fondo) text-white (color texto) -->
+
+    <!--BARRA NAVEGACION-->
+    <div class="container-fluid ">
+      <nav class="navbar navbar-expand-md d-flex my-2 p-0">
+        <a class="navbar-brand" href="E06_index.html">Codo a codo</a>
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desactivado</a>
+          </li>
+        </ul>
+        <form class="form-inline ml-auto" action="E06_index.html">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </nav>
+    </div>
+
+    <!-- clase CARD para las 3 cajas con imganes y su descripcion-->
+    <div class="card-columns border m-0">
+      <!-- CARD: HTML  -->
+      <div class="card border-0">
+        <div class="card-body p-0">
+          <img class="card-img-top" src="imagenes/html5.jpg" alt="HTML5" title="HTML5" style="width: 100%;">
+          <h5 class="card-title px-3 pt-3">titulo 1</h5>
+          <p class="card-text px-3">
+            Contenido de card
+          <p class="text-secondary px-3 small">Ultima actualizacion 1</p>
+          </p>
+        </div>
+      </div>
+      <!-- CARD: CSS3  -->
+      <div class="card border-0">
+        <div class="card-body p-0">
+          <img class="card-img-top" src="imagenes/css.jpg" alt="CSS3" title="CSS3" style="width: 100%;">
+          <h5 class="card-title px-3 pt-3">titulo 1</h5>
+          <p class="card-text px-3">
+            Contenido de card
+          <p class="text-secondary px-3 small">Ultima actualizacion 1</p>
+          </p>
+        </div>
+      </div>
+      <!-- CARD: Bootstrap  -->
+      <div class="card border-0">
+        <div class="card-body p-0">
+          <img class="card-img-top" src="imagenes/bootstrap.jpg" alt="Bootstrap" title="Bootstrap" style="width: 100%;">
+          <h5 class="card-title px-3 pt-3">titulo 1</h5>
+          <p class="card-text px-3">
+            Contenido de card
+          <p class="text-secondary px-3 small">Ultima actualizacion 1</p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="container-fluid p-2">
+      <form action="E06_index.html">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" placeholder="Ingrese su email">
+          <p class="text-secondary small">Nunca comparta su email</p>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Contraseña:</label>
+          <input type="password" class="form-control" placeholder="Ingrese su contraseña">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Verificar
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+        .bloque{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            color: yellow;
+            font-size: 30px;
+        }
+
+        #bloque2{
+            color: white;
+            background-color:black;
+        }

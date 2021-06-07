@@ -1,0 +1,44 @@
+/*Hoja de Estilo*/
+
+#logo_codoAcodo{
+    width: 100px;
+}
+
+.header
+{
+    text-align: left;
+}
+
+.nav{
+    background-color: darkgrey;
+    height: 30px;
+    display: flex;    
+    align-items: center;
+    text-align: right;
+}
+
+nav{
+    width: 100%;
+}
+
+.section{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo_html{
+    margin-left: 5%;
+    width: 70px;
+    height: 80px;
+}
+
+#logo_css{
+    width: 80px;
+    height: 80px;
+}
+
+.footer{
+    background-color: darkgrey;
+    text-align: center;
+}
